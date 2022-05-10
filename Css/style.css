@@ -3,14 +3,12 @@
 }
 body{
   font-family: 'Roboto Condensed', sans-serif;
-  background: #f7f7f7 url(/Image/Checklist-pana.svg) no-repeat center center fixed;
-  background-color: #00948533;
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Roboto";
-  font-size: 14px;
+  background: #00948533 url(/Local-Storage-Project/Image/Checklist-pana.svg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;

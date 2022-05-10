@@ -63,7 +63,7 @@ function Delete() {
 function Clear() {
     if (localStorage.length) {
         window.localStorage.clear();
-        results.innerHTML = `All Keys Are Removed `;
+        results.innerHTML = `<span class="saved"></span>All Keys Are Removed `;
     }  else {
         results.innerHTML = `No Keys  Found In Local Storage `;
       }

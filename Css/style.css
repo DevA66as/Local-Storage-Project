@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #f7f7f7 url(/Image/Checklist-pana.svg) no-repeat center center fixed;
+  background-color: #00948533;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.parent {
+  width: 600px;
+  margin: 150px auto;
+  background-color: #00968783;
+  padding: 20px;
+  border-radius: 6px;
+}
+.parent input {
+  border: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+.parent input:focus {
+  outline: none;
+}
+.parent .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .buttons span {
+  background-color: #009688;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.801);
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.parent .results {
+  background-color: rgba(255, 255, 255, 0.801);
+  padding: 20px;
+  margin-top: 15px;
+  border: 2px dashed #00968780;
+  text-align: center;
+}
+.parent .results span span {
+  font-weight: bold;
+  color: #009688;
+  position: relative;
+}
+.parent .results span span.saved::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight:900;
+  position: absolute;
+  left: -70px;
+  top: 10%;
+}
+.parent .results span .keys {
+  display: block;
+}
+.keys {
+  font-weight: bold;
+  display: block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+.keys::before {
+  content: "\f381";
+  font-family: "Font Awesome 5 Free";
+  font-weight:900;
+  position: absolute;
+  left: -30px;
+  top: 10%;
+}
+#the-input{
+  background-color: rgba(255, 255, 255, 0.801);
+}
